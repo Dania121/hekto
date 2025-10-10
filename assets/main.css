@@ -1,0 +1,38 @@
+body{
+    font-family: var(--mainFont);
+}
+header ul{
+display: flex;
+gap: 35px;
+}
+.bar{
+    display: none;
+}
+.list a{
+    color: #0D0E43;
+}
+.list li.active a{
+    color: var(--primary);
+}
+.search input{
+    border: none;
+    outline: none;
+    padding-left: 9px; ;
+}
+.search button{
+    border: none;
+    outline: none;
+    padding: 8px 13px;
+   background-color: var(--primary);
+}
+.search form{
+    border: 1px solid #E7E6EF;
+}
+@media screen and (max-width:1200px) {
+    .list,.search{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+} 
