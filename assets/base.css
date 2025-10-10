@@ -36,6 +36,24 @@ ul{
     padding: 47px;
 }
 .container{
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     margin: auto;
+}
+.text-white{
+    color:#FFFFFF;
+}
+.d-flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.gap-1{
+   gap: 10px; 
+}
+.gap-2{
+    gap:15px
+}
+.gap-3{
+    gap:20px
 }
