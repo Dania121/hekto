@@ -40,6 +40,28 @@ gap: 35px;
     }
 } 
 /* end header*/
+
+/* start newslater*/
+.Newslater{
+    background-image: url('img/public/newslater.webp');
+    padding: 175px 0px;
+    text-align: center;
+
+}
+.Newslater h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop-btn:hover{
+background-color: #151875;
+transition: 0.5s;
+}
+
+
+
+
+/*end newslater*/
 /* start footer*/
 .footer{
     background-color: #EEEFFB;
